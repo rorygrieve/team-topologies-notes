@@ -69,4 +69,89 @@
   - Very destructive
   - Not aligned with software architecture
 
-  
+## Chapter 3: Team First Thinking
+
+### Team As Units
+- Work should always be assigned to teams not individuals
+- Teams are the smallest entity of delivery within an organisation
+- Teams are stables groups of five to nine people
+
+### Scaling with Dunbar's Number
+- Depth of relationships someone can have scales according to Dunbar's number
+- 5, 15, 50, 150 (roughly triples each time)
+- Keeping teams small maximises trust which is essential for high performing teams
+
+### Importance of Long-Lived Teams
+- Teams take time to form and be effective
+- Typically two to three months
+- Adding more people to a team will reduce capacity while the new memger aclimates and the team adjusts
+
+### Team Ownership
+- Vital to achieve continuity of care of software
+- Teams with strong ownership can think in multiple horizons
+  - Immediate future: Results that are near
+  - Intermediate future: Expand reach of products and services
+  - Far future: Experimentation needed
+- If multiple teams have ownership of the the same code the teams will struggle to code effectively
+  - E.g. can't decide to tolerate a shortcut now secure in the knowledge this will be addressed in refactorings later
+
+### Teams Over Individuals
+- Needs of team always above individuals
+- Individuals should always prioritise others on their team
+  - E.g. prioritise unblocking other people, try to explore options rather than win arguments
+
+### Team Diversity
+- It helps
+- Produces better solutions
+- More diverse teams will have less of the same assumptions
+
+### Individuals Bonuses Are Bad
+- Don't reward individuals, focus on the team
+- Incentives should not undermine team cohesion
+- Training budgets should be for the whole team to decide what to do not for individuals
+
+### Restricting Team Responsibilities
+- Essentials to ensure teams do not exceed their cognitive load
+- Three types of cognitive load
+  1. Intrinsic: Fundamental to the problem space (What's the format for a function in Language X?)
+  2. Extraneous: Environment of the task (What's the correct way to deploy this code?)
+  3. Germane: Needs special attention or high perfomrance (How should this service interact with it dependencies?)
+- Organisations should work to reduce intrinsic cognitive load and eliminate extraneous cognitive load
+- Real value is in germane cognitive load
+
+### Relative Domain Complexity
+- Teams are overloaded when unable to be effective and respond in a timely fashion
+- Different domains have varying levels of complexity
+- Can be useful to split teams up
+
+### 3 Types Of Domains
+1. Simple: Clear path of action
+2. Complicated: Changes need to be analysed
+3. Complex: Lots of experimenation and discovery
+
+### Assigning Domains
+- Don't split responsbilities for a single large domain across several teams
+- Instead split up a large domain into sub-domains and assign to separate teams
+- A single team can handle two to three simple domains, though there is a danger they will get bored by their repetitive work
+- Teams assigned a complex domain should not work on any other domain
+- Teams should not be assigned two complicated domains, better to split the team in two with each each taking one domain
+
+### Team First Not Monolith Or Microservice
+- Design software for team load
+- Doing this will naturally lead to small, decoupled services
+
+### Optimizing Team Environment
+- Team-first working environment
+- Minimise distractions
+- Goals over process
+- Adopt best practices to optimize developer experience
+- Use a platform that reduces cognitive load for devs
+
+### Team API
+- Code: produced by team
+- Versioning: how changes are communicated
+- Wiki and documentation: docs such as how-to guides
+- Practices and principles: team's preffered way of thinking
+- Communication tools: all tools used e.g. Slack, Gmail, Ticketing System
+- Work info: current work, next work, priorities
+- Other: how other teams interact with the team
